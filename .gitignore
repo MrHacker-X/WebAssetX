@@ -1,0 +1,57 @@
+# ---------------------------------------------------------------------------
+# WebAssetX .gitignore - OS / Python / IDE / tool outputs
+# ---------------------------------------------------------------------------
+
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg/
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.eggs.cache/
+
+# --- Virtual environments --------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Testing / coverage ----------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# --- Packaging / tooling caches --------------------------------------------
+.mypy_cache/
+.ruff_cache/
+.mutmut-cache/
+
+# --- IDE / editors ----------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.sublime-project
+.sublime-workspace
+
+# --- Operating systems ------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- WebAssetX outputs -------------------------------------------------------
+extracted_assets/
+site_assets/
+*.part
