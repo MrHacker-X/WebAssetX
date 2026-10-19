@@ -43,7 +43,7 @@ _CONFIGS: dict = {
         "tool": "webassetx",
         "name": "WebAssetX",
         "subtitle": "Website Asset Extractor",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "description": "Target public website URL",
         "homepage": "https://github.com/MrHacker-X/webassetx",
         "author": "MrHacker-X",
